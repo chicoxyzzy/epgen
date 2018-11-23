@@ -1,0 +1,5 @@
+# Usage
+
+```bash
+npx epgen
+```

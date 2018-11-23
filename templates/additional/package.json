@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "name": "proposal-<%= proposalNameHyphen %>",
+  "version": "1.0.0",
+  "description": "ECMAScript <%= proposalName %> proposal",
+  "repository": "<%= nickname %>/proposal-<%= proposalNameHyphen %>",
+  "author": "<%= fullname %> <<%= email %>>",
+  "license": "SEE LICENSE IN https://tc39.github.io/ecma262/#sec-copyright-and-software-license",
+  "homepage": "https://<%= nickname %>.github.io/proposal-<%= proposalNameHyphen %>/",
+  "dependencies": {
+    "ecmarkup": "^3.12.0"
+  },
+  "devDependencies": {
+    "@alrra/travis-scripts": "^3.0.0"
+  }
+}

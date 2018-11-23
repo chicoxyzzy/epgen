@@ -1,0 +1,16 @@
+sudo: off
+
+language: node_js
+
+node_js:
+  - "node"
+
+script:
+  - bash ./deploy.sh
+
+env:
+  global:
+    - ENCRYPTION_LABEL: TODO add encryption label here
+    - GH_USER_NAME: "<%= nickname %>"
+    - GH_USER_EMAIL: "<%= email %>"
+    - PRIVATE_KEY_FILE_NAME: "github_deploy_key.enc"
